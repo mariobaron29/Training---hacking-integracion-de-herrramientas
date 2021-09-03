@@ -1,0 +1,28 @@
+@startuml 
+
+title Casos de uso
+
+actor usuario as usu
+
+package Motor_Juego {
+    (Crear juego) as (Proc1)
+    (Iniciar Juego) as (Proc2)
+
+    (Crear carro) as (Proc3)
+    (Crear carril) as (Proc4)
+    (Mover carro en carril) as (Proc5)
+    
+    (Notificar ganadores) as (Proc6)
+    (Asignar a podio) as (Proc7)
+}
+
+
+usu --> Proc1 
+usu --> Proc2 
+usu --> Proc3 
+usu --> Proc5
+Proc5 --> Proc7
+Proc7 --> Proc6
+ 
+
+@enduml
