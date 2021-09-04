@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:517px;height:145px;" version="1.1" viewBox="0 0 517 145" width="517px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l61ipzbnhb4c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--class co.com.sofka.cargame.infra.config.JuegoConfig--><a href="JuegoConfig.html" target="_top" xlink:actuate="onRequest" xlink:show="new" xlink:title="JuegoConfig.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1l61ipzbnhb4c)" height="103.5313" id="co.com.sofka.cargame.infra.config.JuegoConfig" style="stroke: #A80036; stroke-width: 1.5;" width="500" x="6" y="8"/><ellipse cx="169.75" cy="28.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M172.5156,23.9688 Q172.6719,23.75 172.8594,23.6406 Q173.0469,23.5313 173.2656,23.5313 Q173.6406,23.5313 173.875,23.7969 Q174.1094,24.0469 174.1094,24.6563 L174.1094,26.1094 Q174.1094,26.7188 173.875,26.9844 Q173.6406,27.25 173.2656,27.25 Q172.9219,27.25 172.7188,27.0469 Q172.5156,26.8594 172.4063,26.3438 Q172.3594,25.9844 172.1719,25.7969 Q171.8438,25.4219 171.2344,25.2031 Q170.625,24.9844 170,24.9844 Q169.2344,24.9844 168.5938,25.3125 Q167.9688,25.6406 167.4688,26.3906 Q166.9844,27.1406 166.9844,28.1719 L166.9844,29.2656 Q166.9844,30.5 167.875,31.3281 Q168.7656,32.1406 170.3594,32.1406 Q171.2969,32.1406 171.9531,31.8906 Q172.3438,31.7344 172.7656,31.2969 Q173.0313,31.0313 173.1719,30.9531 Q173.3281,30.875 173.5313,30.875 Q173.8594,30.875 174.1094,31.1406 Q174.375,31.3906 174.375,31.7344 Q174.375,32.0781 174.0313,32.4844 Q173.5313,33.0625 172.7344,33.3906 Q171.6563,33.8438 170.3594,33.8438 Q168.8438,33.8438 167.6406,33.2188 Q166.6563,32.7188 165.9688,31.6563 Q165.2813,30.5781 165.2813,29.2969 L165.2813,28.1406 Q165.2813,26.8125 165.8906,25.6719 Q166.5156,24.5156 167.6094,23.9063 Q168.7031,23.2813 169.9375,23.2813 Q170.6719,23.2813 171.3125,23.4531 Q171.9688,23.6094 172.5156,23.9688 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="232.75" y="27.5332">JuegoConfig</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="164" x="190.25" y="40.9902">co.com.sofka.cargame.infra.config</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="505" y1="48.1875" y2="48.1875"/><ellipse cx="17" cy="60.6055" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="330" x="26" y="63.6064">subscriberEvent(EventStoreRepository, EventBus): SubscriberEvent</text><ellipse cx="17" cy="74.4414" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="327" x="26" y="77.4424">eventSubscriber(String, EventListenerSubscriber): EventSubscriber</text><ellipse cx="17" cy="88.2773" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="474" x="26" y="91.2783">serviceBuilder(CarrilCarroQueryService, CarroQueryService, JuegoQueryService): ServiceBuilder</text><ellipse cx="17" cy="102.1133" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="428" x="26" y="105.1143">useCases(SubscriberEvent, EventStoreRepository, ServiceBuilder): Set&lt;UseCaseWrap&gt;</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="190" x="167" y="132.3809">UMLDoclet 2.0.10, PlantUML 1.2019.08</text><!--
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>JuegoConfig\n<size:10>co.com.sofka.cargame.infra.config" as co.com.sofka.cargame.infra.config.JuegoConfig [[JuegoConfig.html]] {
+        +subscriberEvent(EventStoreRepository, EventBus): SubscriberEvent
+        +eventSubscriber(String, EventListenerSubscriber): EventSubscriber
+        +serviceBuilder(CarrilCarroQueryService, CarroQueryService, JuegoQueryService): ServiceBuilder
+        +useCases(SubscriberEvent, EventStoreRepository, ServiceBuilder): Set<UseCaseWrap>
+    }
+
+    center footer UMLDoclet 2.0.10, PlantUML 1.2019.08
+@enduml
+
+PlantUML version 1.2019.08(Sat Jul 13 14:25:14 COT 2019)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.11+9-LTS-194
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: es
+Country: CO
+--></g></svg>
